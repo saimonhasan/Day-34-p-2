@@ -1,0 +1,105 @@
+@media (max-width:1024px) {
+    .banner {
+        padding: 170px 0;
+    }
+
+    .footer-left p {
+        font-size: 18px;
+    }
+
+    .footer-right ul li a {
+        font-size: 18px;
+    }
+}
+
+
+
+@media (max-width:768px) {
+
+    /* header */
+    #herder-part .content .logo {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    #herder-part .content .logo img {
+        width: 160px;
+    }
+    #herder-part .content .menu {
+        width: 100%;
+        float: right;
+        margin: auto;
+        text-align: center;
+    }
+
+    #herder-part .content .menu ul {
+        text-align: center;
+    }
+
+
+    
+
+    /* banner */
+
+    .banner {
+        padding: 130px 0;
+    }
+
+    .banner-content h2 {
+        font-size: 22px;
+    }
+
+    .banner-content h1 {
+        max-width: 385px;
+        font-size: 32px;
+    }
+
+    .left-content {
+        width: 100%;
+    }
+
+    .right-content {
+        width: 100%;
+    }
+
+    .footer-left {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-right {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-right ul li a {
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+}
+
+@media (max-width:576px) {
+    .banner {
+        padding: 100px 0;
+    }
+    .banner-content h2 {
+        font-size: 16px;
+    }
+    .banner-content h1 {
+        max-width: 250px;
+        font-size: 22px;
+    }
+    #herder-part .content .menu ul li a {
+        padding: 0 20px;
+        font-size: 16px;
+        line-height: 50px;
+    }
+
+    .service-item {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+
